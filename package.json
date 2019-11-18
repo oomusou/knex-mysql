@@ -1,0 +1,16 @@
+{
+  "name": "mysql-hello",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "node --experimental-modules index.js",
+    "mysql:up": "docker-compose up -d",
+    "mysql:down": "docker-compose down"
+  },
+  "dependencies": {
+    "knex": "^0.20.2",
+    "mysql": "^2.17.1"
+  },
+  "type": "module"
+}
